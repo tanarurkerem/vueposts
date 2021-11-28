@@ -1,6 +1,6 @@
 let path = '/'
 if (process.env.GITHUB_REPOSITORY) {
-  path = process.env.GITHUB_REPOSITORY.split('/')[1]
+  path = '/' + process.env.GITHUB_REPOSITORY.split('/')[1]
 }
 
 module.exports = {
