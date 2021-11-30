@@ -25,4 +25,14 @@ A főbb pontokon commitolj és pushold fel a változtatásokat. Ezt érdemes min
 Add be a repod linkjét. Figyelj oda, hogy az utolsó commit idejét fogjuk nézni.
 
 # Feladat
-[feladat]
+Készíts Blog alkalmazást.
+
+Az alkalmazás jelenítse meg a postokat. A Post címe legyen h2, a törzse div html tag-ben. A post után legyen egy "Edit [post.title]" feliratú gomb.
+
+Az Edit gomb megnyomására a post helyén jelenjen meg egy űrlap amivel a title és a body szerkeszthető, valamint egy Save gomb. A Save gomb megnyomására mentődjenek el a változások és legyen látható az új érték, valamint az Edit gomb.
+
+Figylej a következőkre:
+
+* Az App.vue-ban található "posts" változó értékei módosuljanak!
+* Bontsd komponensekre a feladatot!
+* a props értékeket soha ne módosítsd, használj eseményeket!
